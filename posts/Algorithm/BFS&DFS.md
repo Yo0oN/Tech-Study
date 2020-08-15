@@ -1,17 +1,12 @@
----
-title: 자료구조 & 알고리즘 12. BFS & DFS
-modified: 2020-07-23
-author: Yo0oN
-categories: [자료구조&알고리즘, 알고리즘]
-tags: [알고리즘]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-07-23|2020-07-23|
 
 ## 1. BFS 너비 우선 탐색
 
 BFS(Breadth-First Search)는 너비 우선 탐색으로, 그래프 알고리즘 중 하나이다.<br>
 
-<img src="/images/posts/Algorithm/07.BFS&DFS/01.jpg" width="60%" />
+<img src="/images/posts/Algorithm/BFS&DFS/01.jpg" width="60%" />
 
 임의의 노드 하나를 기준으로 잡은 후 해당 노드에서부터 가까이 있는 노드들을 순서로 방문하는 방식으로 탐색을 진행한다.
 
@@ -19,13 +14,9 @@ BFS(Breadth-First Search)는 너비 우선 탐색으로, 그래프 알고리즘 
 
 BFS는 두 노드 사이의 최단 경로나, 임의의 경로를 찾고 싶을 때 사용하면 좋다.
 
-<br>
-
 BFS는  시간 복잡도는 $$O(V+E)$$로 표현되며, V는 노드, E는 간선이다.
 
 <br>
-
-<hr>
 
 ## 2. BFS 구현하기
 
@@ -55,8 +46,6 @@ def bfs(graph, start_node) :
 
 <br>
 
-<hr>
-
 ## 3. DFS 깊이 우선 탐색
 
 DFS(Depth-First Search)는 깊이 우선 탐색으로, 그래프 알고리즘 중 하나이다.<br>
@@ -71,13 +60,10 @@ DFS(Depth-First Search)는 깊이 우선 탐색으로, 그래프 알고리즘 �
 
 또, _인간관계에서 A와 B 사이의 관계를 구하시오._ 같은 문제를 풀 때는 DFS를 이용하여 A와 관련된 한사람의 관계를 모두 알게된 후 다음 사람으로 넘어가는 것 보다는, BFS를 이용하여 A의 가까운 관계부터 탐색하는 것이 좋다.
 
-<br>
-
 DFS의 시간 복잡도는 $$O(V+E)$$로 표현되며, V는 노드, E는 간선이다.
 
 <br>
 
-<hr>
 
 ## 4. DFS 구현하기
 
