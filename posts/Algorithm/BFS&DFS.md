@@ -50,7 +50,7 @@ def bfs(graph, start_node) :
 
 DFS(Depth-First Search)는 깊이 우선 탐색으로, 그래프 알고리즘 중 하나이다.<br>
 
-<img src="/images/posts/Algorithm/07.BFS&DFS/02.jpg" width="60%" />
+<img src="/images/posts/Algorithm/BFS&DFS/02.jpg" width="60%" />
 
 임의의 노드 하나를 해당 노드의 분기 중 하나를 선택하여 해당 분기를 모두 탐색하고, 다음 분기를 탐색하는 방식으로 탐색한다.
 
