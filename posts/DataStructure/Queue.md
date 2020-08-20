@@ -1,11 +1,6 @@
----
-title: 자료구조 & 알고리즘 02. Queue
-modified: 2020-07-02
-author: Yo0oN
-categories: [자료구조&알고리즘, 자료구조]
-tags: [자료구조]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-07-02|2020-07-02|
 
 ## 1. Queue 큐
 
@@ -23,23 +18,20 @@ math: true
 
 이를 대비하여 위하여 큐의 처음과 마지막이 이어져있는 원형 큐라는 것도 존재한다.
 
-<br>
 
 ### 1-1. 원형큐
 
 일반적인 큐의 단점을 보완한 것으로 큐의 처음과 마지막을 이어주어 큐의 마지막까지 rear가 도달하더라도 다시 처음으로 돌아가 데이터를 넣고 뺄 수 있다.
 
-![원형큐](/images/posts/DataStructure/02.Queue/01.png "DoIt알고리즘 원형 큐")
+![원형큐](/images/posts/DataStructure/Queue/01.png "DoIt알고리즘 원형 큐")
 
 그리고 원형 큐는 한 칸을 비어두어 현재 큐가 포화상태인지, 공백상태인지 알 수 있다.
 
-![원형큐의 공백, 포화](/images/posts/DataStructure/02.Queue/02.jpg "원형 큐의 공백, 포화")
+![원형큐의 공백, 포화](/images/posts/DataStructure/Queue/02.jpg "원형 큐의 공백, 포화")
 
 만약 front == rear라면 현재 공백상태이고, rear가 front보다 한칸 뒤에 있다면 포화상태이다.
 
 큐의 전 부분을 계속 사용할 수 있다는 장점이 있지만, 이런 원형 큐에도 크기가 고정되어있을 수 밖에 없다는 단점이 아직 있다.
-
-<br>
 
 ### 1-2. LinkedList 큐
 
@@ -47,7 +39,6 @@ LinkedList나 ArrayList처럼 크기가 고정되어 있지 않다면 이를 이
 
 아래의 2-1번에서는 LinkedList를 이용하여 큐를 구현하고 있다.
 
-<br>
 
 ### 1-3. Queue의 기능들
 
@@ -71,10 +62,6 @@ LinkedList나 ArrayList처럼 크기가 고정되어 있지 않다면 이를 이
     <td>큐가 꽉 차있는지 확인한다.</td>
   </tr>
 </table>
-
-<br>
-
-<hr>
 
 <br>
 
@@ -123,7 +110,6 @@ class Queue :
     # 현재 큐는 링크드리스트로 만들어졌기 때문에 isFull이 필요 없다.
 ```
 
-<br>
 
 ### 2-2. 원형 큐 구현하기 - Java
 
