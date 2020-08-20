@@ -2,7 +2,7 @@
 |:----|:----|
 |2020-08-08|2020-08-08|
 
-[자료구조의 Stack 게시물](/posts/자료구조01.Stack)
+[자료구조의 Stack 게시물](https://github.com/Yo0oN/Tech-Study/blob/Yo0oN-patch-2/posts/DataStructure/Stack.md)
 
 ## 1. Stack
 
