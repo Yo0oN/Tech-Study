@@ -8,7 +8,7 @@
 
 <br>
 
-## [Algorithm](https://github.com/Yo0oN/Tech-Study/tree/Yo0oN-patch-2/posts/Algorithm)
+## [Algorithm](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Algorithm)
 
 - [버블정렬](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Algorithm/%EB%B2%84%EB%B8%94%EC%A0%95%EB%A0%AC.md)
 - [선택정렬](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Algorithm/%EC%84%A0%ED%83%9D%EC%A0%95%EB%A0%AC.md)
@@ -19,7 +19,7 @@
 
 - [이진탐색](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Algorithm/%EC%9D%B4%EC%A7%84%ED%83%90%EC%83%89.md)
 
-## [Data Structure](https://github.com/Yo0oN/Tech-Study/tree/Yo0oN-patch-2/posts/DataStructure)
+## [Data Structure](https://github.com/Yo0oN/Tech-Study/tree/master/posts/DataStructure)
 
 - [Stack](https://github.com/Yo0oN/Tech-Study/blob/master/posts/DataStructure/Stack.md)
 - [Queue](https://github.com/Yo0oN/Tech-Study/blob/master/posts/DataStructure/Queue.md)
@@ -31,7 +31,7 @@
 
 - ### Operation System
 
-## 🍖 [Java](https://github.com/Yo0oN/Tech-Study/tree/Yo0oN-patch-2/posts/Java)
+## 🍖 [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
 
 ## ETC
 
