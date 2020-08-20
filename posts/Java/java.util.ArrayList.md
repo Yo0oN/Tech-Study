@@ -1,26 +1,21 @@
----
-title: ArrayList
-modified: 2020-08-01
-author: Yo0oN
-categories: [Java]
-tags: [Java, 자료구조]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-08-01|2020-08-01|
 
 ## 1. ArrayList
 
 ArrayList는객체를 관리하는데 사용하는 자료구조이다.<br>
 
-<img src="/images/posts/Java/01/01.jpg" />
+<img src="/images/posts/Java/java.util.ArrayList/01.jpg" />
 
 java.util.ArrayList를 살펴보면 내부적으로는 **배열**을 이용하여 구현되어있다.<br>
 
-<img src="/images/posts/Java/01/02.jpg"/>
+<img src="/images/posts/Java/java.util.ArrayList/02.jpg"/>
 
 하지만 Array(배열)과는 다르게 용량이 다 차게 된다면 내부적으로 더 큰 배열을 만들어 크기를 키운 후 값을 더 넣을 수 있다. (=***Dynamic***)<br>
-(물론 무한히 넣을 수 있는것은 아니고 int의 최댓값인 $$0x7fffffff$$ 까지만 크기를 키울 수 있다.)<br>
+(물론 무한히 넣을 수 있는것은 아니고 int의 최댓값인 0x7fffffff 까지만 크기를 키울 수 있다.)<br>
 
-<img src="/images/posts/Java/01/03.jpg" />
+<img src="/images/posts/Java/java.util.ArrayList/03.jpg" />
 
 또한, 값을 자리가 있는 경우 마지막에만 추가해 줄 수 있는 배열과는 다르게, 사이에 끼워 넣을 수도 있다.<br>
 그럴경우, 이전에 있던 값들을 한칸씩 뒤로 옮긴 후 넣게된다.
@@ -28,7 +23,7 @@ java.util.ArrayList를 살펴보면 내부적으로는 **배열**을 이용하�
 데이터를 빼는 경우에도 마찬가지로, 값을 제거하면 제거한 값의 뒤에서부터 앞으로 한칸씩 자리를 이동하여 빈자리를 메꿔준다.<br>
 (참고로 값을 추가할 때 크기를 키운것과는 다르게 제거한다고 해서 크기를 줄이지는 않는다.)
 
-<hr>
+<br>
 
 ## 2. ArrayList의 장단점
 
@@ -37,7 +32,7 @@ ArrayList는 배열을 이용하여 구현되어있기 때문에, 접근할 때 
 
 하지만 그와 반대로 삽입, 삭제가 일어날 때마다 다른 값들의 위치를 이동시키기 때문에 시간이 오래걸릴 뿐더러, 크기를 키웠는데 그만큼의 값을 추가하지 않을 경우에는 메모리 낭비가 있다는 단점도 있다.
 
-<hr>
+<br>
 
 ## 3. java.util.ArrayList 사용법
 

@@ -1,26 +1,19 @@
----
-title: Stack
-modified: 2020-08-08
-author: Yo0oN
-categories: [Java]
-tags: [Java, 자료구조]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-08-08|2020-08-08|
 
-[자료구조의 Stack 게시물](/posts/자료구조01.Stack)
-
-<hr>
+[자료구조의 Stack 게시물](https://github.com/Yo0oN/Tech-Study/blob/Yo0oN-patch-2/posts/DataStructure/Stack.md)
 
 ## 1. Stack
 
 Stack은 먼저 마지막으로 들어간것이 먼저 나오는(LILO / FILO) 자료구조이다.<br>
 
-<img src="/images/posts/Java/03/01.png" />
+<img src="/images/posts/Java/java.util.Stack/01.png" />
 
 Stack은 Vector 클래스를 상속받았으며, java.util.Stack를 내부에서 Stack을 구현하는부분을 따라가다 보면 Vector 클래스로 이어지고 있다.<br>
 그리고 Vector의 내부에서는 배열을 이용하여 값을 저장중이다.
 
-<hr>
+<br>
 
 ## 2. java.util.Stack 사용법
 

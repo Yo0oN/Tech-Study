@@ -1,21 +1,14 @@
----
-title: LinkedList
-modified: 2020-08-02
-author: Yo0oN
-categories: [Java]
-tags: [Java, 자료구조]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-08-02|2020-08-02|
 
-[자료구조의 LinkedList 게시물](/posts/자료구조03.링크드리스트)
-
-<hr>
+[자료구조의 LinkedList 게시물](https://github.com/Yo0oN/Tech-Study/blob/master/posts/DataStructure/LinkedList.md)
 
 ## 1. LinkedList
 
 LinkedList는 객체를 관리하는데 사용하는 자료구조이다.<br>
 
-<img src="/images/posts/Java/02/01.jpg" />
+<img src="/images/posts/Java/java.util.LinkedList/01.jpg" />
 
 java.util.LinkedList를 살펴보면 Node라는 것을 이용하여 여러 요소들을 이어주는 것(link)을 볼 수 있다.<br>
 Node 하나에는 해당 노드의 값이 들어있고, 앞의 노드와 뒤의 노드를 참조하여 여러 노드들 끼리 이어준다.
@@ -24,7 +17,7 @@ Node 하나에는 해당 노드의 값이 들어있고, 앞의 노드와 뒤의 
 
 노드에 값을 저장하기 때문에 Array와는 다르게 중간에 데이터를 삽입, 삭제하는것이 자유롭다.
 
-<hr>
+<br>
 
 ## 2. LinkedList의 장단점
 
@@ -33,7 +26,7 @@ LinkedList는 노드를 이용하여 구현되어있기 때문에, 값을 삽입
 
 하지만 값을 가져올 때 Array처럼 값이 연속적으로 있어 인덱스로만 값을 가져오지 않고, 노드를 처음부터 원하는 값이 나올 때 까지 탐색해야 하므로 시간이 오래걸린다는 단점이 있다.
 
-<hr>
+<br>
 
 ## 3. java.util.LinkedList 사용법
 
