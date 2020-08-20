@@ -1,11 +1,6 @@
----
-title: 자료구조 & 알고리즘 08. LinkedList
-modified: 2020-07-06
-author: Yo0oN
-categories: [자료구조&알고리즘, 자료구조]
-tags: [자료구조]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-07-06|2020-07-06|
 
 ## 1. Linked List
 
@@ -14,7 +9,7 @@ math: true
 배열과 비교되는 자료구조인데, 배열은 일정 저장 공간에 데이터를 연속적으로 저장을 한다.<br>
 하지만 링크드리스트는 데이터와 데이터가 멀리 떨어져있어도 주소를 이용하여 연결할 수 있다.
 
-![LinkedList](/images/posts/DataStructure/03.LinkedList/01.jpg)
+![LinkedList](/images/posts/DataStructure/LinkedList/01.jpg)
 
 그림에서 보이듯 배열은 저장공간이 지정되어있어서 데이터를 추가하려면 더 큰 배열로 옮겨야하지만,<br>
 링크드리스트는 데이터들끼리 떨어져있어도 주소만 알고 연결해주면 되기 때문에 데이터를 추가하는데 어려움이 없다.
@@ -22,11 +17,10 @@ math: true
 하지만, 링크드리스트의 이런 특징은 단점이 되기도 하는데,<br>
 인덱스로 값에 접근이 가능한 배열과는 다르게 접근할 수 있는 방법이 앞에서부터 하나씩 탐색하는 것 뿐이라 시간이 오래걸릴수밖에 없다.
 
-<br>
 
 ### 1-1. 노드
 
-![LinkedList](/images/posts/DataStructure/03.LinkedList/02.jpg)
+![LinkedList](/images/posts/DataStructure/LinkedList/02.jpg)
 
 자료구조에는 Node(노드)라는 단위가 있는데, 하나의 정보를 저장하고 있는 단위를 뜻한다.<br>
 노드에는 정보와, 다음 노드에 대한 연결을위한 정보를 가지고 있고,<br>
@@ -34,7 +28,6 @@ math: true
 (이후의 다른 자료구조에서도 노드는 자주 나온다.)
 
 <br>
-<hr>
 
 ## 2. 구현하기 - Python
 
