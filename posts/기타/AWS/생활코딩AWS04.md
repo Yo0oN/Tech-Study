@@ -1,15 +1,9 @@
----
-title: AWS 04. AWS에서 S3 만들기 2
-modified: 2020-07-12
-author: Yo0oN
-categories: [AWS]
-tags: [AWS]
-math: true
----
+|작성일|수정일|
+|:----|:----|
+|2020-07-12|2020-07-12|
+
 
 생활코딩과 함께하는 AWS 탐구생활 강의의 4, 6일차 내용입니다.(5일차 생략)
-
-<hr>
 
 ## 1. S3의 요금
 
@@ -18,7 +12,7 @@ S3는 파일 업로드를 할 때, 또는 객체의 속성에서 요금제를 �
 
 <br>
 
-![AWS S3 요금](/images/posts/AWS/04/01.jpg)
+![AWS S3 요금](/images/posts/기타/AWS/생활코딩AWS04/01.jpg)
 
 <br>
 <ol>
@@ -49,21 +43,18 @@ S3는 파일 업로드를 할 때, 또는 객체의 속성에서 요금제를 �
 
 <br>
 
-<hr>
-
 ## 2. S3의 다양한 기능들
 
-![AWS 기능들](/images/posts/AWS/04/02.jpg)
+![AWS 기능들](/images/posts/기타/AWS/생활코딩AWS04/02.jpg)
 
 AWS에는 여러 기능들이 있고, 폴더의 속성이나 [S3 설명서](https://docs.aws.amazon.com/AmazonS3/latest/user-guide/what-is-s3.html) 부분에서 확인할 수 있다.
 
-<br>
 
 ### 2-1. Web Server Hosting 기능
 
 S3를 이용하여 웹사이트 호스팅을 할 수 있다.<br>
 
-![S3 WEB Hosting](/images/posts/AWS/04/03.jpg "S3 WEB Hosting")
+![S3 WEB Hosting](/images/posts/기타/AWS/생활코딩AWS04/03.jpg "S3 WEB Hosting")
 
 버킷의 속성에 보면 정적 웹 사이트 호스팅 기능이 있고, 해당 기능을 사용하면 S3를 웹서버처럼 사용할 수 있다.<br>
 (대신 버킷과 파일들은 외부에서 접속이 가능하도록 퍼블릭상태여야 한다.)
@@ -71,9 +62,8 @@ S3를 이용하여 웹사이트 호스팅을 할 수 있다.<br>
 사진에서 보이는 엔드포인트가 웹사이트의 주소가 된다.<br>
 해당 주소를 입력해보면 S3에 올린 사이트를 볼 수 있다.
 
-![S3 WEB Hosting](/images/posts/AWS/04/04.jpg "S3 WEB Hosting")
+![S3 WEB Hosting](/images/posts/기타/AWS/생활코딩AWS04/04.jpg "S3 WEB Hosting")
 
-<br>
 
 ### 2-2. Cloud Front 기능
 
@@ -82,7 +72,6 @@ Cloud Front 기능은 __CDN(Content Delievery Network) 과 같은 기능이다.
 CDN은 전세계에 서버를 분산시켜 둔 후 외부에서 요청이 들어오면 요청에서 가장 가까운 장소에 있는 서버에서 미리 저장해 두었던 컨텐츠를 응답을 해준다.<br>
 그래서 내가 지정한 서버의 위치보다 먼 곳에서 요청을 하더라도 빠르게 응답해준다.
 
-<br>
 
 ### 2-3. 버전관리 기능
 
