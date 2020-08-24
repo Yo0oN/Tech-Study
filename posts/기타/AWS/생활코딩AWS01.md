@@ -32,7 +32,7 @@ AWS는 **Rlation Database Service = RDS**를 운영하는데, RDS에서는 관�
 
 ## 나에게 필요한 서비스 찾기.
 
-![AWS 서비스](/images/posts/AWS/01/01.jpg "AWS 서비스")
+![AWS 서비스](/images/posts/기타/AWS/생활코딩AWS01/01.jpg "AWS 서비스")
 
 [AWS](https://aws.amazon.com/ko/)를 확인해보면, 다양한 서비스를 제공중인것을 확인할 수 있다.
 
