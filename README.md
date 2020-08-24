@@ -31,8 +31,8 @@
 
 - ### Operation System
 
-## 🍖 [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
+## [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
 
 ## ETC
 
-- ### AWS
+- ### [AWS](https://github.com/Yo0oN/Tech-Study/tree/master/posts/%EA%B8%B0%ED%83%80/AWS)
