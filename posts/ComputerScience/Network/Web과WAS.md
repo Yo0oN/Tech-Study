@@ -25,7 +25,7 @@
 
 그러면 개발자도구나 소스보기를 이용하여 이 화면이 어떻게 작성되었는지, 어떤 코드가 이 페이지의 HTML들을 만들어 주고 있는지 살펴보자.
 
-![텀블벅](/images/postsComputerScience/Network/WebWAS/webwas02.jpg "텀블벅 마이페이지2")
+![텀블벅](/images/posts/ComputerScience/Network/WebWAS/webwas02.jpg "텀블벅 마이페이지2")
 
 사진에는 초반부분만 있지만 아래의 다른 부분을 보아도 HTML 문장을 만들어 주는 코드는 보이지 않는다.<br>
 모두 만들어진 문장들만 들어있다.<br>
