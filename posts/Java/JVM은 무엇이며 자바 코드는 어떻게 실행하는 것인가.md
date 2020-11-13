@@ -80,8 +80,27 @@ Java로 작성된 파일은 확장자가 *.java*이다.
 이제 JVM은 바이트 코드를 읽어 각각의 기기가 이해할 수 있는 기계어로 인터프리터 방식으로 해석해서 프로그램을 실행시켜준다.
 
 
+## 4. JIT
 
+## 5. JVM의 구성요소
 
+<p><a href="https://commons.wikimedia.org/wiki/File:JvmSpec7.png#/media/파일:JvmSpec7.png"><img src="https://upload.wikimedia.org/wikipedia/commons/d/dd/JvmSpec7.png" alt="JvmSpec7.png" width="80%"></a><br>By <a href="//commons.wikimedia.org/w/index.php?title=User:Michelle_Ridomi&amp;amp;action=edit&amp;amp;redlink=1" class="new" title="User:Michelle Ridomi (page does not exist)"> Michelle Ridomi</a> - <span class="int-own-work" lang="ko">자작</span>, <a href="https://creativecommons.org/licenses/by-sa/4.0" title="Creative Commons Attribution-Share Alike 4.0">CC BY-SA 4.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=35963523">링크</a></p>
+
+### Class Loader
+
+클래스로더는 클래스를 읽어오는 부분인데, 로딩 -> 링크 -> 초기화 순서대로 진행된다.<br>
+Runtime 시에 동적으로 클래스들을 읽어오는데(load) 만약 로딩 중 필요한 클래스가 존재하지 않다면, ClassNotFoundException이 발생한다.<br>
+이렇게 불러와진 클래스들은 위의 그림에서 JVM Memory 중 Method 영역에 쌓이게 된다.
+
+클래스로더에는 다시 3종류가 있는데, Bootstrap, Extension, Application ClassLoader가 있다.<br>
+
+자세한 내용은 [Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/) by HomoEfficio를 더 읽어봐야겠다..
+
+Java 프로그램을 실행하면 항상 `public static void main(String[] args)` 메서드가 제일 처음으로 실행되는데, 
+
+### Method Area
+
+메소드, 클래스, static 영역 등 다양한 이름으로 불린다.
 
 <hr>
 
