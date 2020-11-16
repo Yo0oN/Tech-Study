@@ -60,13 +60,13 @@ Java에서는 .java 파일을 컴파일하면 .class 파일이 나오는데, 이
 
 Java로 작성된 파일은 확장자가 *.java*이다.
 
-![Compile01.jpg]()<br>
+![compile01](https://user-images.githubusercontent.com/53729311/99221756-8463d180-2824-11eb-9703-d7c9d55a0041.jpg)<br>
 일단 메모장을 이용하여 클래스를 하나 만들어 내용을 적은 후 .java라는 이름으로 저장하였다.
 
-![compile02.jpg]()<br>
+![compile02](https://user-images.githubusercontent.com/53729311/99221772-8f1e6680-2824-11eb-9f05-c4dcb4474839.jpg)<br>
 이제 java 파일을 저장한 위치에서 명령프롬프트 창을 열어 `javac Compile.java`라고 입력하면 잠시동안 아무 일도 일어나지 않다가 해당 위치에 Compile.class라는 파일이 생기는 것을 볼 수 있을것이다. JVM이 읽을 수 있도록 파일이 바뀐것이다.
 
-![compile03.jpg]()<br>
+![compile03](https://user-images.githubusercontent.com/53729311/99221787-96457480-2824-11eb-88cf-671fe43a6267.jpg)<br>
 이제 다시 명령프롬프트에서 `java Compile`이라 입력하니 해당 문서가 실행되어 컴파일을 해보자!라는 문구가 출력되었다.
 
 - .java 문서 작성
@@ -81,7 +81,7 @@ Java로 작성된 파일은 확장자가 *.java*이다.
 
 2-3에서 javac 명령어를 통해 컴파일을 해보았다. 명령어에는 여러 옵션을 추가할 수 있는데, cmd 창에서 명령어 뒤에 -help라고 붙이면 해당 명령어의 옵션을 확인할 수 있다.
 
-![javac01.jpg]()<br>
+![javac01](https://user-images.githubusercontent.com/53729311/99221809-a2c9cd00-2824-11eb-839f-d0300085f43c.jpg)<br>
 
 전부 보진 않고 몇가지만 살펴보자.<br>
 - -cp / -classpath<br>
@@ -91,6 +91,7 @@ Java로 작성된 파일은 확장자가 *.java*이다.
 컴파일 하여 나올 클래스 파일을 저장할 위치를 정해준다. 특별히 지정하지 않고 컴파일 한다면 소스파일이 있는 곳에 생긴다.
 
 - -encoding <br>
+![javac02](https://user-images.githubusercontent.com/53729311/99221824-a9f0db00-2824-11eb-93f5-ca73071591fb.jpg)<br>
 소스파일에 사용된 인코딩을 설정한다. 가끔 파일을 컴파일 하려하면 error가 발생하며 unmappable character for encoding XXX 같은 문구가 뜰때가 있다. 해당 옵션을 이용하지 않고 그냥 컴파일 하게된다면 컴파일러는 플랫폼의 기본 인코딩으로 컴파일 하려한다. 하지만, 소스코드를 저장할 때 지정해준 문자열 인코딩과, 플랫폼의 기본 문자열 인코딩이 다를 경우 위와 같은 에러가 발생하므로 위의 옵션을 사용해서 컴파일해주자.<br>
 > 플랫폼이란 개발환경이나 실행황경 등 어떤 목적을 수행할 수 있는 환경을 말한다. 여기서는 운영체제를 뜻한다.
 
