@@ -54,6 +54,7 @@ Java에서는 .java 파일을 컴파일하면 .class 파일이 나오는데, 이
 #### 2-2. interpreter
 
 비슷한 것으로 *interpret*, *interpreter*라는 것도 있는데, 컴파일러가 전체를 해석하여 결과를 한번에 내어준다면, 인터프리터는 한 줄씩 해석해서 해석 결과를 바로바로 전달하는 것이다.<br>
+대신 실시간으로 해석해서 실행하기 때문에 속도가 느리다는 단점이 있다.
 > 실제로 interpreter라는 단어의 뜻 자체도 통역사이다. 대화 중 통역해주는 것을 생각하면 이해하기 쉬울듯..
 
 ### 2-3. 컴파일 하고 실행시켜보기
@@ -114,9 +115,21 @@ Java로 작성된 파일은 확장자가 *.java*이다.
 2-3번에서 컴파일을 해서 JVM이 읽을 수 있도록 .class 파일을 만들었다. 이렇게 고급언어로 작성된 코드를 가상머신이 이해할 수 있도록 컴파일 하여 나온 결과 코드를 *바이트코드*라고 한다.(컴퓨터가 이해하는 기계어와는 다르다.)<br>
 이제 JVM은 바이트코드를 읽어 각각의 기기가 이해할 수 있는 기계어로 인터프리터 방식으로 해석해서 프로그램을 실행시켜준다.
 
-그리고 JVM은 Java언어로 작성된 코드를 그대로 읽어 실행시키는 것이 아니라 바이트코드를 읽어서 실행시킨다고 했는데, 반대로 생각하면 어떤 언어로 프로그램을 작성하더라도, 해당 코드를 바이트코드로 컴파일 해줄수만 있다면 JVM을 통해 실행시킬 수 있다는 뜻이다.
+그리고 JVM은 Java언어로 작성된 코드를 그대로 읽어 실행시키는 것이 아니라 바이트코드를 읽어서 실행시킨다고 했는데, 반대로 생각하면 어떤 언어로 프로그램을 작성하더라도, 해당 코드를 바이트코드로 컴파일 해줄수만 있다면 JVM을 통해 실행시킬 수 있다는 뜻이다.<br>
 
-## 4. JIT
+<br>
+
+## 4. JIT 컴파일러란?
+
+### JIT - Just In Time
+
+Java 프로그램을 실행시킬 때, 소스코드를 바이트코드로 컴파일 한 후 JVM이 인터프리터 방식으로 한줄씩 해석하는 방식으로 진행한다.<br>
+하지만 한줄씩 기계어로 해석해서 실행하게 될 경우 속도가 느리다는 단점이 있다.
+
+그래서 JIT는 실행 시점에 인터프리터 방식으로 기계어를 생성하면 그 코드를 캐싱한다. 그래서 한번 실행되어 캐싱된 적이 있다면 저장된 캐시에서 가져와 실행하게 된다.<br>
+그래서 최초로 실행할 때는 인터프리터 방식처럼 조금 느릴수는 있으나, 이후에는 인터프리터 방식보다 빠르게 실행할 수 있다.
+
+<br>
 
 ## 5. JVM의 구성요소
 
@@ -133,47 +146,54 @@ System -> Platform -> Bootstrap 순서로 실행되며, 각각 Java 프로그램
 Bootstrap ClassLoader는 환경변수로 설정한 <JAVA_HOME>의 jre/lib/에 위치한 자바 기본 라이브러리들을 불러온다.<br>
 Extension ClassLoader는 jre/lib/ext에 위치한 클래스 파일들을 불러온다.<br>
 Application ClassLoader는 환경변수에 있는 파일을 불러온다.<br>
-> 위의 내용은 정확하지 않다. 이후 다시한번 찾아보자..<br>
+> 더 자세히 알고싶다면 아래의 글을 참고하자..<br>
 > [Baeldung](https://www.baeldung.com/java-classloaders)<br>
-> [Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/) by HomoEfficio
+> [Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/) by HomoEfficio<br>
 
 ### Method Area
 
 메소드, 클래스, static 영역 등 다양한 이름으로 불린다.<br>
 JVM이 실행 시 생성되는 공간으로, ClassLoader에 의해 로딩된 클래스의 바이트코드, 클래스 멤버변수, 메서드 등 클래스 수준의 정보가 저장되는 공간이다.
-참고로 실행에 필요한 패키지, 클래스가 처음으로 사용될 때 로딩되고, 작성한 모든 클래스가 처음부터 바로 로딩되는 것은 아니다.(궁금하면 static 블록을 이용해서 확인하자)
+참고로 실행에 필요한 패키지, 클래스가 처음으로 사용될 때 로딩되고, 작성한 모든 클래스가 처음부터 바로 로딩되는 것은 아니다.(궁금하면 static 블록을 이용해서 확인하자)<br>
 
 ### Stack 영역
 
 Stack영역은 Java Thread 별로 각각 생성되어 공유할 수 없는 영역으로, 메서드가 호출되면 Stack영역에는 메서드 프레임이 추가(push) 되었다가, 종료되면 제거(pop) 된다.<br>
 Stack에 저장되는 메서드 프레임 내부는 지역변수가 저장되는 local variable area와, 임시값이 저장되는 operand stack, 프레임에 대한 정보가 저장되는 frame data로 다시 나뉜다.<br>
-스레드가 종료되면 해당 영역은 삭제된다.
+스레드가 종료되면 해당 영역은 삭제된다.<br>
 
 ### Heap 영역
 
 JVM을 시작할 때 생성되는 영역으로, 객체, 배열, 참조변수의 값, 인스턴스 멤버변수 등이 저장된다.<br>
-Garbage Collector이 활동하는 공간으로, 사용하지 않는 메모리는 GC에 의해 삭제된다.<br>
-Heap 영역은 다시 세 영역으로 나뉘며 자세한 내용은 [notion](https://www.notion.so/yoonstechstudy/GC-Garbage-Collection-da639a6fc2244eaf9d418ffcae940ec5) 참고..
+Garbage Collector가 활동하는 공간으로, 사용하지 않는 메모리는 GC에 의해 삭제된다.
+
+![heap](https://user-images.githubusercontent.com/53729311/99227738-fb9e6300-282e-11eb-9c9e-c49944328b55.png)<br>
+Heap 영역은 다시 세 영역으로 나뉘는데, Young과 Old에는 객체가, Perm에는 클래스나 메소드에 대한 정보가 저장된다.
+
+처음 객체를 생성하면 Young의 제일 처음인 Eden에 저장되고, Eden이 꽉 차면 그 곳에 있던 객체 중 살아있는 객체만 Survivor로 복사된다.<br>
+다시 Survivor가 차면 다음으로 넘어가는 식으로 반복해서 Old 영역까지 가는데 이 과정을 Minor Garbage Collection 혹은 Young Garbage Collection이라고 한다.<br>
+Old 영역마저 다 차면 GC가 발생하여 더이상 사용하지 않는 객체들을 삭제하는데, 이 과정은 Major Garbage Collection 혹은 Full Garbage Collection이라 부른다.<br>
+> 참고로 GC 방식은 Java 7 기준 5종류가 있다고 한다.<br>
 
 ### PC Registers
 
 스레드가 시작될 때 생성되며 각 스레드별로 하나씩 생성된다.<br>
-스레드가 각자 어떤 부분의 어떤 명령을 실행해야 하는지에 대한 기록을 하는 부분으로, 현재 수행중인 JVM 명령의 주소를 가진다.
+스레드가 각자 어떤 부분의 어떤 명령을 실행해야 하는지에 대한 기록을 하는 부분으로, 현재 수행중인 JVM 명령의 주소를 가진다.<br>
 
 ### Native Method Stacks
 
-자바가 아닌 다른 언어로 작성된 네이티브 코드가 저장되는 영역이다.
+자바가 아닌 다른 언어로 작성된 네이티브 코드가 저장되는 영역이다.<br>
 
 ### Execution Engine
 
 실행엔진으로 런타임 영역에 배치된 바이트 코드들을 명령어 단위로 읽어서 실행시켜주는 엔진이다.<br>
-여기서는 바이트코드를 컴퓨터가 읽을 수 있도록 다시 기계어로 해석하는데, 이때 Interpreter와 JIT 컴파일러가 사용된다.
+여기서는 바이트코드를 컴퓨터가 읽을 수 있도록 다시 기계어로 해석하는데, 이때 위에서 설명한 JIT 컴파일러가 사용된다.<br>
 
 <br>
 
 ## 6. JDK와 JRE
 
-JDK는 Java Devel
+### JDK - Java Development Kit / JRE - Java Runtime Environment
 
 
 
@@ -187,4 +207,6 @@ JDK는 Java Devel
 
 - 참고
 
-[What is the JVM? Introducing the Java Virtual Machine](https://www.infoworld.com/article/3272244/what-is-the-jvm-introducing-the-java-virtual-machine.html), By Matthew Tyson, Java Developer, JavaWorld
+- [What is the JVM? Introducing the Java Virtual Machine](https://www.infoworld.com/article/3272244/what-is-the-jvm-introducing-the-java-virtual-machine.html), By Matthew Tyson, Java Developer, JavaWorld
+- [Baeldung](https://www.baeldung.com/java-classloaders)<br>
+- [Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/), y HomoEfficio
