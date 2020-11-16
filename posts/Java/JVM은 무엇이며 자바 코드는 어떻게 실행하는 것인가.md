@@ -193,9 +193,20 @@ Old 영역마저 다 차면 GC가 발생하여 더이상 사용하지 않는 객
 
 ## 6. JDK와 JRE
 
-### JDK - Java Development Kit / JRE - Java Runtime Environment
+![DescriptionOfJavaConceptualDiagram](https://user-images.githubusercontent.com/53729311/99230361-96e50780-2832-11eb-93cc-ae812a24c3e5.jpg)<br>
+By [Oracle Documentation](https://docs.oracle.com/javase/8/docs/)
 
+### JRE - Java Runtime Environment
 
+JRE는 자바 실행 환경으로, 실행을 위해서 필요한 것들만 들어있다.<br>
+Java 클래스 라이브러리, JVM 등 Java 프로그램을 실행할 수만 있기 때문에 새로운 Java 프로그램을 작성할 수는 없다.
+
+### JDK - Java Development Kit
+
+JDK는 자바 개발 도구로 Java 파일을 컴파일하고, 개발하는데 도움을 주는 도구들을 모두 포함하고 있는 것을 말한다.<br>
+개발하는데 도움을 주는 것이 들어있기 때문에 컴파일러, JVM, Java 클래스 라이브러리 등을 가지고 있으며, JRE가 JDK에 포함되어 있다.<br>
+
+<br>
 
 <hr>
 
@@ -207,6 +218,8 @@ Old 영역마저 다 차면 GC가 발생하여 더이상 사용하지 않는 객
 
 - 참고
 
-- [What is the JVM? Introducing the Java Virtual Machine](https://www.infoworld.com/article/3272244/what-is-the-jvm-introducing-the-java-virtual-machine.html), By Matthew Tyson, Java Developer, JavaWorld
-- [Baeldung](https://www.baeldung.com/java-classloaders)<br>
-- [Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/), y HomoEfficio
+[What is the JVM? Introducing the Java Virtual Machine](https://www.infoworld.com/article/3272244/what-is-the-jvm-introducing-the-java-virtual-machine.html), By Matthew Tyson, Java Developer, JavaWorld<br>
+[Baeldung](https://www.baeldung.com/java-classloaders)<br>
+[Java 클래스로더 훑어보기](https://homoefficio.github.io/2018/10/13/Java-%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C%EB%8D%94-%ED%9B%91%EC%96%B4%EB%B3%B4%EA%B8%B0/), By HomoEfficio<br>
+[Understand JVM and JIT Compiler](https://medium.com/@julio.falbo/understand-jvm-and-jit-compiler-part-1-a94c27d32478), By Júlio Falbo<br>
+ 
