@@ -14,3 +14,5 @@
 - [ArrayList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.ArrayList.md)
 - [LinkedList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.LinkedList.md)
 - [Stack](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.Stack.md)
+
+- [notion 정리](https://www.notion.so/yoonstechstudy/Java-66e9e452878a487aa72703bd7dd41d4d)
