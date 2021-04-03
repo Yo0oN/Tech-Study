@@ -20,7 +20,6 @@ REST API는 HTTP 통신에서 자원에 접근하여 CRUD를 할 때 URI와 메�
 
 -------
 
-- 참고
-
-[RedHat](https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces)<br>
-[API의 기본 by Naver Developers](https://developers.naver.com/docs/common/openapiguide/apiterms.md#api%EC%9D%98-%EA%B8%B0%EB%B3%B8)
+참고
+- [RedHat](https://www.redhat.com/ko/topics/api/what-are-application-programming-interfaces)
+- [API의 기본 by Naver Developers](https://developers.naver.com/docs/common/openapiguide/apiterms.md#api%EC%9D%98-%EA%B8%B0%EB%B3%B8)
