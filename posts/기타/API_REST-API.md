@@ -18,6 +18,18 @@ REST API는 HTTP 통신에서 자원에 접근하여 CRUD를 할 때 URI와 메�
 
 [네이버](https://developers.naver.com/main/), [카카오](https://developers.kakao.com/), [구글](https://developers.google.com/) 등에서 개발자를 위해 제공하는 기능들을 보면 대부분 REST API를 통해 사용한다.
 
+### REEST의 구조
+
+REST는
+- 자원 : URI
+- 행위 : HTTP Method
+- 표현
+으로 이루어져 있다.
+
+URI로 자원을 표시하고 HTTP Method로 작엽을 요청, 그 응답을 받는 것이다.
+
+
+
 -------
 
 참고
