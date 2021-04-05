@@ -1,6 +1,7 @@
 # Tech-Study
 
 > 🖖신입 개발자로 성장하기 위해 공부한 내용들을 업데이트합니다.
+> 더 많은 내용은 [Yo0oN's Notion](https://www.notion.so/yoonstechstudy/Yo0oN-e80d42987a484046b554045e3d65085d)을 참고해주세요.
 
 ------
 
@@ -30,6 +31,11 @@
   - [실수 표현법](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/%EC%8B%A4%EC%88%98%ED%91%9C%ED%98%84%EB%B2%95.md)
 
 ## [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
+
+- [JVM](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/001.JVM.md)
+- [ArrayList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.ArrayList.md) / [LinkedList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.LinkedList.md)
+- [Stack](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.Stack.md)
+
 
 ## ETC
 
