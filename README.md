@@ -32,9 +32,15 @@
   - [프로세스와 스레드](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/Thread%26Process.md)
   - [하드웨어](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/%ED%95%98%EB%93%9C%EC%9B%A8%EC%96%B4.md)
 
+- ## [OS](https://github.com/Yo0oN/Tech-Study/tree/master/posts/ComputerScience/OperationSystem)
+  - [운영체제의 구조](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%9D%98%EA%B5%AC%EC%A1%B0.md)
+  - [데드락](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/%EB%8D%B0%EB%93%9C%EB%9D%BD.md)
+  - [인터럽트](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8.md)
+
 ## [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
 
 - [JVM](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/001.JVM.md)
+- [접근제어자](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/%EC%A0%91%EA%B7%BC%EC%A0%9C%EC%96%B4%EC%9E%90.md)
 - [ArrayList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.ArrayList.md) / [LinkedList](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.LinkedList.md)
 - [Stack](https://github.com/Yo0oN/Tech-Study/blob/master/posts/Java/java.util.Stack.md)
 
