@@ -38,17 +38,17 @@
   - [데드락](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/데드락.md)
   - [인터럽트](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/인터럽트.md)
 
-- ## [Database](https://github.com/Yo0oN/Tech-Study-TIL/tree/master/posts/DataBase)
-  - [정규화](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/DataBase/정규화.md)
-  - [Index - 인덱스](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/DataBase/인덱스Index.md)
-  - [Transaction - 트랜잭션](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/DataBase/Transaction.md)
-  - [Transaction Isolation Level - 트랜잭션 격리수준](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/DataBase/TransactionIsolationLevel.md)
+- ## [Database](https://github.com/Yo0oN/Tech-Study-TIL/tree/master/posts/ComputerScience/Database)
+  - [정규화](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Database/정규화.md)
+  - [Index - 인덱스](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Database/인덱스Index.md)
+  - [Transaction - 트랜잭션](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Database/Transaction.md)
+  - [Transaction Isolation Level - 트랜잭션 격리수준](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Database/TransactionIsolationLevel.md)
 
 - ## [Network](https://github.com/Yo0oN/Tech-Study-TIL/tree/master/posts/Network)
-  - [HTTP & HTTPS](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/Network/HTTP_HTTPS.md)
-  - [IP_MAC.md](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/Network/IP_MAC.md)
-  - [API & Rest API](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/Network/API_REST-API.md)
-  - [Web & Was](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/Network/Web과WAS.md)
+  - [HTTP & HTTPS](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Network/HTTP_HTTPS.md)
+  - [IP_MAC.md](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Network/IP_MAC.md)
+  - [API & Rest API](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Network/API_REST-API.md)
+  - [Web & Was](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Network/Web과WAS.md)
 
 
 ## [Java](https://github.com/Yo0oN/Tech-Study/tree/master/posts/Java)
