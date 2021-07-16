@@ -31,12 +31,12 @@
   - [숫자 표현법](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/숫자표현법.md)
   - [실수 표현법](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/실수표현법.md)
   - [컴퓨터의 구조](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/하드웨어.md)
-  - [프로세스와 스레드](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/ComputerArchitecture/Thread&Process.md)
 
 - ## [OS](https://github.com/Yo0oN/Tech-Study/tree/master/posts/ComputerScience/OperationSystem)
   - [운영체제의 구조](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/운영체제의구조.md)
   - [데드락](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/데드락.md)
   - [인터럽트](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/인터럽트.md)
+  - [프로세스와 스레드](https://github.com/Yo0oN/Tech-Study/blob/master/posts/ComputerScience/OperationSystem/Thread&Process.md)
 
 - ## [Database](https://github.com/Yo0oN/Tech-Study-TIL/tree/master/posts/ComputerScience/Database)
   - [정규화](https://github.com/Yo0oN/Tech-Study-TIL/blob/master/posts/ComputerScience/Database/정규화.md)
