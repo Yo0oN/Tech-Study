@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-08-01|2020-08-01|
+---
+created: 2020-08-01
+modified: 2020-08-01
+tags: [Java, util]
+title: java.util.ArrayList
+author: Yo0oN
+categories: [Java, util]
+---
 
 ## 1. ArrayList
 

@@ -1,3 +1,11 @@
+---
+tags: [OS, OperationSystem]
+title: Deadlock
+author: Yo0oN
+categories: [OperationSystem]
+---
+
+
 ## Deadlock
 
 데드락이란 *교착상태*라고도 불리는 것으로, 멀티프로세스 환경에서 발생한다.

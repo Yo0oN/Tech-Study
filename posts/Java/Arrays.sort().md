@@ -1,3 +1,10 @@
+---
+tags: [Java, sort]
+title: Arrays.sort()
+author: Yo0oN
+categories: [Java]
+---
+
 ## Java에서의 정렬
 
 Arrays에는 sort()라는 메서드가 있다. 해당 메서드는 배열을 정렬하는데 사용되며, 내부를 보면 DualPivotQuicksort를 이용중이다.

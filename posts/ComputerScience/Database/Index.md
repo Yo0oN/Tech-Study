@@ -1,3 +1,12 @@
+---
+created: 2020-07-28
+modified: 2020-07-28
+tags: [DB, DataBase]
+title: Index
+author: Yo0oN
+categories: [DataBase]
+---
+
 ## 인덱스 Index
 
 인덱스는 RDBMS에서 검색 속도를 높이기 위해 사용하는 것이다.

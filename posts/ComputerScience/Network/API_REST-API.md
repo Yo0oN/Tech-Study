@@ -1,3 +1,12 @@
+---
+created: 2021-07-08
+modified: 2021-07-08
+tags: [Network, API]
+title: API
+author: Yo0oN
+categories: [Network]
+---
+
 ## API? Application Programming Interface
 
 ***운영체제나 시스템, 애플리케이션, 라이브러리 등을 활용해 응용 프로그램을 작성할 수 있게 하는 다양한 인터페이스를 의미합니다. Window API, Java API, HTML5 API, Android API 등이 있습니다.*** - [API의 기본 by Naver Developers](https://developers.naver.com/docs/common/openapiguide/apiterms.md#api%EC%9D%98-%EA%B8%B0%EB%B3%B8)

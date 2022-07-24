@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-01|2020-07-01|
+---
+created: 2020-07-01
+modified: 2020-07-01
+tags: [DataStructure]
+title: Stack
+author: Yo0oN
+categories: [DataStructure]
+---
 
 ## 1. Stack
 

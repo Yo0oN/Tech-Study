@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-06-30|2020-06-30|
+---
+created: 2020-06-30
+modified: 2020-06-30
+tags: [Network, Web]
+title: WebAndWAS
+author: Yo0oN
+categories: [Network]
+---
 
 ## 1. Web 서버와 WAS
 

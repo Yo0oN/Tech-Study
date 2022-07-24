@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-06-29|2020-06-29|
+---
+created: 2020-06-29
+modified: 2020-06-29
+tags: [OS, OperationSystem]
+title: OS
+author: Yo0oN
+categories: [OperationSystem]
+---
 
 
 ## 1. 운영체제?

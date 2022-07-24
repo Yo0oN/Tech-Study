@@ -1,8 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2021-02-14|2021-06-27|
-
---------
+---
+created: 2021-02-14
+modified: 2021-02-14
+tags: [Network, IP]
+title: IP
+author: Yo0oN
+categories: [Network]
+---
 
 ## 1. IP?
 

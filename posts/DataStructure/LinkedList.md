@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-06|2020-07-06|
+---
+created: 2020-07-06
+modified: 2020-07-06
+tags: [DataStructure]
+title: LinkedList
+author: Yo0oN
+categories: [DataStructure]
+---
 
 ## 1. Linked List
 

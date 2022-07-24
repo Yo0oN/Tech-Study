@@ -1,8 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2021-03-26|2021-06-26|
-
---------
+---
+created: 2021-03-21
+modified: 2021-03-21
+tags: [Network]
+title: HTTP
+author: Yo0oN
+categories: [Network]
+---
 
 ## 1. HTTP
 

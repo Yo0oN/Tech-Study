@@ -1,3 +1,10 @@
+---
+tags: [OS, OperationSystem]
+title: Interupt
+author: Yo0oN
+categories: [OperationSystem]
+---
+
 ## 인터럽트?
 
 인터럽트는 CPU가 일을 하고 있을 때 우선적으로 처리해야하는 일이 생긴다면 하던일을 중단하고 처리해야하는 일을 하는 것을 말한다.

@@ -1,7 +1,7 @@
 ---
 created: 2020-07-23
 modified: 2020-07-23
-tag: [Algorithm, Search]
+tags: [Algorithm, Search]
 title: BFS/DFS
 author: Yo0oN
 category: Algorithm

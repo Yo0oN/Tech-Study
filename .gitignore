@@ -29,6 +29,6 @@ $RECYCLE.BIN/
 
 # Obsidian
 .obsidian
-template
+template.md
 
 # End of https://www.toptal.com/developers/gitignore/api/windows

@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-02|2020-07-02|
+---
+created: 2020-07-02
+modified: 2020-07-02
+tags: [DataStructure]
+title: Queue
+author: Yo0oN
+categories: [DataStructure]
+---
 
 ## 1. Queue 큐
 

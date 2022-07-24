@@ -1,8 +1,14 @@
-|작성일|수정일|
-|:----|:----|
-|2020-08-02|2020-08-02|
+---
+created: 2020-08-02
+modified: 2020-08-02
+tags: [Java, util]
+title: java.util.LinkedList
+author: Yo0oN
+categories: [Java, util]
+---
 
 [자료구조의 LinkedList 게시물](https://github.com/Yo0oN/Tech-Study/blob/master/posts/DataStructure/LinkedList.md)
+[[LinkedList]]
 
 ## 1. LinkedList
 

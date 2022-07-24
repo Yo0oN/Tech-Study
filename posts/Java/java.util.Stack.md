@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-08-08|2020-08-08|
+---
+created: 2020-08-08
+modified: 2020-08-08
+tags: [Java, util]
+title: java.util.Stack
+author: Yo0oN
+categories: [Java, util]
+---
 
 [자료구조의 Stack 게시물](https://github.com/Yo0oN/Tech-Study/blob/Yo0oN-patch-2/posts/DataStructure/Stack.md)
 

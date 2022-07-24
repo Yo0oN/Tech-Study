@@ -1,7 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-03-19|2020-07-16|
-
+---
+created: 2020-03-19
+modified: 2020-03-19
+tags: [OS, OperationSystem]
+title: ThreadAndProcess
+author: Yo0oN
+categories: [OperationSystem]
+---
 
 ## 1. Process
 

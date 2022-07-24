@@ -1,3 +1,12 @@
+---
+created: 2020-07-28
+modified: 2020-07-28
+tags: [DB, DataBase]
+title: Normalization
+author: Yo0oN
+categories: [DataBase]
+---
+
 # 정규화?
 
  ` 데이터를 효율적으로 관리하기 위해 데이터를 분해하는 과정.`

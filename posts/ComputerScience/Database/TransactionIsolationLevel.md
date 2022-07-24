@@ -1,8 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2021-07-11|2021-07-12|
-
---------
+---
+created: 2021-07-11
+modified: 2021-07-12
+tags: [DB, DataBase]
+title: Transaction
+author: Yo0oN
+categories: [DataBase]
+---
 
 ## 1. Transaction Isolation Level 트랜잭션 격리수준
 

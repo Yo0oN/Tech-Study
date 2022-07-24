@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-10|2020-07-10|
+---
+created: 2020-07-10
+modified: 2020-07-10
+tags: [DataStructure]
+title: TreeAndGraph
+author: Yo0oN
+categories: [DataStructure]
+---
 
 ## 1. 트리
 

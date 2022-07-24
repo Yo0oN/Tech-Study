@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-11-13|2021-06-26|
+---
+created: 2020-11-13
+modified: 2020-11-13
+tags: [Java, lang]
+title: java.lang.String
+author: Yo0oN
+categories: [Java, lang]
+---
 
 ## 1. java.lang.String
 
