@@ -1,12 +1,17 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-23|2020-07-23|
+---
+created: 2020-07-23
+modified: 2020-07-23
+tag: [Algorithm, Search]
+title: BFS/DFS
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. BFS 너비 우선 탐색
 
 BFS(Breadth-First Search)는 너비 우선 탐색으로, 그래프 알고리즘 중 하나이다.<br>
 
-<img src="/images/posts/Algorithm/BFS&DFS/01.jpg" width="60%" />
+![01](https://user-images.githubusercontent.com/53729311/180644547-851105f6-96a0-4fe3-9feb-4174c4704292.jpg)
 
 임의의 노드 하나를 기준으로 잡은 후 해당 노드에서부터 가까이 있는 노드들을 순서로 방문하는 방식으로 탐색을 진행한다.
 
@@ -50,7 +55,7 @@ def bfs(graph, start_node) :
 
 DFS(Depth-First Search)는 깊이 우선 탐색으로, 그래프 알고리즘 중 하나이다.<br>
 
-<img src="/images/posts/Algorithm/BFS&DFS/02.jpg" width="60%" />
+![02](https://user-images.githubusercontent.com/53729311/180644626-54a2fc8b-102a-476c-ab73-31e60f0aeb5f.jpg)
 
 임의의 노드 하나를 해당 노드의 분기 중 하나를 선택하여 해당 분기를 모두 탐색하고, 다음 분기를 탐색하는 방식으로 탐색한다.
 
@@ -71,7 +76,7 @@ DFS 알고리즘을 구현할 때 주의할 점은 어떤 노드를 방문했었
 
 그렇기 때문에, ***방문한 노드를 차례로 저장하여 차례대로 보여줄 곳은 FIFO인 큐***, ***앞으로 방문할 노드를 저장해며 마지막으로 탐색한 곳의 가지와 이어진 노드를 꺼내줄 곳은 LIFO인 스택***을 이용하여 알고리즘을 구현한다.
 
-<img src="/images/posts/Algorithm/BFS&DFS/03.jpg" />
+![03](https://user-images.githubusercontent.com/53729311/180644634-9290e8f6-3877-415f-a4db-508e621e9469.jpg)
 
 위의 그림을 보면 탐색의 중간까지만 나와있지만 왜 큐와 스택을 사용하는지 알 수 있다.<br>
 

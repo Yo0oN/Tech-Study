@@ -21,11 +21,11 @@
 
 마이페이지는 나만이 볼 수 있고, 사용자에 따라 다른 화면을 보여주는 동적페이지이다.
 
-![텀블벅](/images/posts/ComputerScience/Network/WebWAS/webwas01.jpg "텀블벅 마이페이지")
+![webwas01](https://user-images.githubusercontent.com/53729311/180646615-d95fe2b1-e0c8-40eb-ad87-90b6fc42d729.jpg)
 
 그러면 개발자도구나 소스보기를 이용하여 이 화면이 어떻게 작성되었는지, 어떤 코드가 이 페이지의 HTML들을 만들어 주고 있는지 살펴보자.
 
-![텀블벅](/images/posts/ComputerScience/Network/WebWAS/webwas02.jpg "텀블벅 마이페이지2")
+![webwas02](https://user-images.githubusercontent.com/53729311/180646617-0efdffca-1b43-463f-894a-a5b78204662e.jpg)
 
 사진에는 초반부분만 있지만 아래의 다른 부분을 보아도 HTML 문장을 만들어 주는 코드는 보이지 않는다.<br>
 모두 만들어진 문장들만 들어있다.<br>
@@ -40,7 +40,7 @@ HTML을 만들어 주는 코드들은 어디 있을까? WAS는 어떻게 동적�
 이때 WAS는 동적 컨텐츠 요청이 들어오면 코드들을 읽어 정적 컨텐츠로 바꿔준다.<br>
 요청을 보고 사용자에 맞게 코드로 HTML을 만들어서 정적 컨텐츠로 만든 후 정적인 콘텐츠로 응답을 해주는 것이다.<br>
 
-![WAS](/images/posts/ComputerScience/Network/WebWAS/webwas03.png "WAS 구조")
+![webwas03](https://user-images.githubusercontent.com/53729311/180646619-5aefd1e0-6f50-48ea-8d92-64b7f0e292d5.png)
 
 사진처럼 WAS 내부에는 웹서버와 웹 컨테이너(=서블릿 컨테이너 = 컨테이너)가 들어있는데<br>
 웹 컨테이너는 .jsp파일을 Servlet으로 변환하여 컴파일한 후 동적컨텐츠를 정적컨텐츠로 바꿔서 웹 서버에게 전달해준다.<br>

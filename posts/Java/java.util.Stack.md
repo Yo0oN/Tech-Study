@@ -8,7 +8,7 @@
 
 Stack은 먼저 마지막으로 들어간것이 먼저 나오는(LILO / FILO) 자료구조이다.<br>
 
-<img src="/images/posts/Java/java.util.Stack/01.png" />
+![01](https://user-images.githubusercontent.com/53729311/180646979-14ad09fb-b17f-4dfc-8fbe-0c14119c8869.png)
 
 Stack은 Vector 클래스를 상속받았으며, java.util.Stack를 내부에서 Stack을 구현하는부분을 따라가다 보면 Vector 클래스로 이어지고 있다.<br>
 그리고 Vector의 내부에서는 배열을 이용하여 값을 저장중이다.

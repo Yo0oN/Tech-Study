@@ -1,14 +1,19 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-03|2020-07-03|
+---
+created: 2020-07-03
+modified: 2020-07-03
+tag: [Algorithm, Sort]
+title: Bubble Sort
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. 버블정렬 Bubble Sort
 
 버블정렬은 인접한 두개의 원소를 비교하며 위치를 교환하는 방식으로 진행된다.
 
-![버블정렬](/images/posts/Algorithm/버블정렬/01.gif "버블정렬")
+![01](https://user-images.githubusercontent.com/53729311/180646239-0fab9eca-3897-4031-bc0d-f5aecddd7719.gif)
 
-![버블정렬](/images/posts/Algorithm/버블정렬/02.jpg "버블정렬 stable")
+![02](https://user-images.githubusercontent.com/53729311/180646244-f22da2e8-6162-48e5-98a6-db48319ba889.jpg)
 
 또한, 버블정렬은 동일 수가 있어도 자리가 바뀌지 않는 안정(stable)정렬이다.
 

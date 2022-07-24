@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-052020-07-05|
+---
+created: 2020-07-05
+modified: 2020-07-05
+tag: [Algorithm, Sort]
+title: QuickSort
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. 퀵정렬
 
@@ -10,7 +15,7 @@
 
 기준점을 설정하는 방법은 여러가지가 있는데 보통 첫번째, 마지막, 중간을 사용한다.
 
-![퀵정렬](/images/posts/Algorithm/퀵정렬/01.jpg)
+![01](https://user-images.githubusercontent.com/53729311/180646324-1bbe9434-fed2-4967-a826-9a01d13c2bc5.jpg)
 
 또한 퀵정렬은 같은 수의 위치가 바뀌는 불안정 정렬이다.
 

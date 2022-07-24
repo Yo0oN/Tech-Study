@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-04|2020-07-04|
+---
+created: 2020-07-04
+modified: 2020-07-04
+tag: [Algorithm, Sort]
+title: SelectionSort
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. 선택정렬
 
@@ -10,14 +15,14 @@
 배열의 값 중 가장 작은값, 최소값과 0번의 자리를 바꾼다.<br>
 다음에는 배열의 0번을 제외한 1번부터 위의 과정을 반복한다.
 
-![선택정렬](/images/posts/Algorithm/선택정렬/01.gif)
+![01](https://user-images.githubusercontent.com/53729311/180646338-d2673db3-5e7e-40b0-bc20-e0d4f55ad603.gif)
 
 알고리즘이 단순하고 하나의 배열 안에서 교환하기 때문에 다른 메모리 공간을 필요하지는 않지만,<br>
 시간복잡도를 생각하면 효율적인 알고리즘은 아니다.
 
 그리고 동일한 수가 있을 때 두 수의 위치가 바뀔 수 있는 불안정(Unstable) 정렬이다.
 
-![선택정렬](/images/posts/Algorithm/선택정렬/02.jpg)
+![02](https://user-images.githubusercontent.com/53729311/180646339-93da31d6-72ee-43db-9477-ca8f10aae3dd.jpg)
 
 <br>
 

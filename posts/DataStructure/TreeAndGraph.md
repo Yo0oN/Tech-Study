@@ -4,19 +4,19 @@
 
 ## 1. 트리
 
-<img src="/images/posts/DataStructure/Tree/01.png" width="80%" />
+![01](https://user-images.githubusercontent.com/53729311/180646835-d70907e4-894f-4732-aad1-e3dd4262a8eb.png)
 
 노드를 이용하여 정보를 저장하며, 노드끼리 사이클을 이루지 않는 구조이다.<br>
 위의 그림처럼 루트노드부터 가지가 뻗어나와 다른 노드들이 붙어있는 모습이 나무를 닮았다고 하여 트리라고 불린다.<br>
 유닉스, 리눅스의 디렉터리 구조도 트리구조이다.
 
-<img src="/images/posts/DataStructure/Tree/04.jpg" width="60%" />
+![04](https://user-images.githubusercontent.com/53729311/180646842-98affa01-720f-4558-975a-ae95d75a095d.jpg)
 추가적으로 사이클은, 여러 노드와 노드가 이어져있을 때, 간선을 따라 가다보면 처음 정점을 다시 만나는 구조로 처음 정점과, 끝 정점이 같은 경우를 말한다.<br>
 하지만 트리는 부모 -> 자식 노드로만 이어져 있기 때문에 처음 정점이 끝 정점이 되는 일은 없기 때문에 사이클을 이루지 않는 구조라 한것이다.
 
 ### 1-1. 용어
 
-<img src="/images/posts/DataStructure/Tree/02.jpg" width="80%" />
+![02](https://user-images.githubusercontent.com/53729311/180646840-8ddee55c-966b-4df5-9b23-a34be44fd33e.jpg)
 
 - Node(=vertex정점) : 트리에서 데이터를 저장하는 기본 요소. 노드 = 데이터 + 다음 노드의 주소
 - Eage(간선) : 노드를 연결하는 선
@@ -36,7 +36,7 @@
 
 ### 2-1. 그래프의 종류
 
-<img src="/images/posts/DataStructure/Tree/06.jpg" width="100%" />
+![06](https://user-images.githubusercontent.com/53729311/180646845-5d4eff6c-86ec-47d5-ac14-d80154d9cf48.jpg)
 
   1. 무방향 그래프<br>
     방향이 없는 그래프로, 노드와 노드가 간선으로 이루어져 있다면 어느방향이나 상관없이 갈 수 있다.<br>
@@ -85,7 +85,7 @@
 
 ## 3. 이진트리 & 이진탐색트리
 
-<img src="/images/posts/DataStructure/Tree/05.jpg" width="80%" />
+![05](https://user-images.githubusercontent.com/53729311/180646844-6ab07ecb-c5f5-440c-9c0d-384b0fa207f0.jpg)
 
 이진트리는 노드 하나 당 아래로 뻗어나온 가지가 최대 두개까지 있는 트리를 말한다.
 
@@ -165,7 +165,7 @@ class BinarySearchTree :
    
 위의 3번을 보면 삭제하려는 노드의 오른쪽 또는 왼쪽 자식 중 가장 작은 자식 또는 가장 큰 자식을 가져와 빈자리에 넣는다고 되어있는데, 그 이유는 아래의 그림을 보면 알 수 있다.
 
-<img src="/images/posts/DataStructure/Tree/03.jpg" width="80%" />
+![03](https://user-images.githubusercontent.com/53729311/180646841-539f6369-fe4f-4055-b2eb-01295b55ab49.jpg)
 
 3-1. 빈자리를 채우기 위해 아래의 자식들 중 하나를 가져다 써야 하는데 만약 오른쪽 자식 중 하나를 쓴다고 하면, 오른쪽 자식 중 가장 작은값을 빈자리에 넣어야 왼쪽은 부모보다 작고 오른쪽은 부모보다 커야한다는 이진탐색트리의 조건을 만족한다.
 

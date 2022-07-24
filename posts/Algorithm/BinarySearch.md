@@ -1,12 +1,16 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-14|2020-07-14|
-
+---
+created: 2020-07-14
+modified: 2020-07-14
+tag: [Algorithm, Search]
+title: Binary Search
+author: Yo0oN
+category: Algorithm
+---
 ## 1. Binary Search
 
 이진탐색, 이분탐색으로 불리며, 탐색해야 하는 부분을 반으로 나누어 찾는 방식이다.
 
-![이진탐색](/images/posts/Algorithm/이진탐색/01.jpg)
+![01](https://user-images.githubusercontent.com/53729311/180646150-4d9d2024-8180-4c25-aada-8faaaa138154.jpg)
 
 배열에 있는 숫자 중 35가 몇번째에 있는지 알고 싶다면 일단 배열을 반으로 나누어 가운데 숫자를 본다.<br>
 가운데에 있는 숫자가 35보다 크다면 35는 배열의 앞 절반에, 가운데 숫자가 35보다 작다면 배열의 뒤 절반에 있을것이다.<br>

@@ -1,6 +1,11 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-06|2020-07-06|
+---
+created: 2020-07-06
+modified: 2020-07-06
+tag: [Algorithm, Sort]
+title: MergeSort
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. 병합정렬
 
@@ -12,7 +17,7 @@
 
 시간복잡도는 최악, 최선 모두 O(n log n)으로 앞에서 정리한것들 중 가장 빠르다.
 
-![병합정렬](/images/posts/Algorithm/병합정렬/01.jpg)
+![01](https://user-images.githubusercontent.com/53729311/180646300-4fe1506c-ba85-4b95-9cdd-e7f647ef651d.jpg)
 
 또한 같은 두 수가 변경되지 않는 안정정렬에 속한다.
 

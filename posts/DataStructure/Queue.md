@@ -23,11 +23,11 @@
 
 일반적인 큐의 단점을 보완한 것으로 큐의 처음과 마지막을 이어주어 큐의 마지막까지 rear가 도달하더라도 다시 처음으로 돌아가 데이터를 넣고 뺄 수 있다.
 
-![원형큐](/images/posts/DataStructure/Queue/01.png "DoIt알고리즘 원형 큐")
+![01](https://user-images.githubusercontent.com/53729311/180646804-d1e3b633-69ca-48ce-b4b2-4f8635273870.png)
 
 그리고 원형 큐는 한 칸을 비어두어 현재 큐가 포화상태인지, 공백상태인지 알 수 있다.
 
-![원형큐의 공백, 포화](/images/posts/DataStructure/Queue/02.jpg "원형 큐의 공백, 포화")
+![02](https://user-images.githubusercontent.com/53729311/180646807-b81aa434-29da-4d51-bc4c-78991bdc0265.jpg)
 
 만약 front == rear라면 현재 공백상태이고, rear가 front보다 한칸 뒤에 있다면 포화상태이다.
 

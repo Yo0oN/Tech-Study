@@ -9,7 +9,7 @@
 배열과 비교되는 자료구조인데, 배열은 일정 저장 공간에 데이터를 연속적으로 저장을 한다.<br>
 하지만 링크드리스트는 데이터와 데이터가 멀리 떨어져있어도 주소를 이용하여 연결할 수 있다.
 
-![LinkedList](/images/posts/DataStructure/LinkedList/01.jpg)
+![01](https://user-images.githubusercontent.com/53729311/180646794-2ae541a5-6f7b-492a-b547-d9fcc1e3bd2b.jpg)
 
 그림에서 보이듯 배열은 저장공간이 지정되어있어서 데이터를 추가하려면 더 큰 배열로 옮겨야하지만,<br>
 링크드리스트는 데이터들끼리 떨어져있어도 주소만 알고 연결해주면 되기 때문에 데이터를 추가하는데 어려움이 없다.
@@ -20,7 +20,7 @@
 
 ### 1-1. 노드
 
-![LinkedList](/images/posts/DataStructure/LinkedList/02.jpg)
+![02](https://user-images.githubusercontent.com/53729311/180646796-03091b5f-5be2-4031-8a29-fa3705977e65.jpg)
 
 자료구조에는 Node(노드)라는 단위가 있는데, 하나의 정보를 저장하고 있는 단위를 뜻한다.<br>
 노드에는 정보와, 다음 노드에 대한 연결을위한 정보를 가지고 있고,<br>

@@ -23,7 +23,7 @@ OS는
 
 운영체제는 쉽게 보면 아래의 그림처럼 생겼다.
 
-![운영체제](/images/posts/ComputerScience/OperationSystem/운영체제의구조/OS01.jpeg "패캠 운영체제 그림")
+![OS01](https://user-images.githubusercontent.com/53729311/180646693-ed649a04-5a00-4345-a80a-73cb8d71b822.jpeg)
 
 위의 두 줄 Application, Shell은 일반적인 사용자가 볼 수 있는 부분이다.
 
@@ -87,7 +87,7 @@ API는 운영체제가 응용프로그램을 위해 제공하는 문서이다.
 
 제조사마다 커널의 생김새는 다르지만, 커널의 안으로 들어갈수록 중요하고, 특별한 권한이 필요하다.
 
-![커널](/images/posts/ComputerScience/OperationSystem/운영체제의구조/OS02.jpeg "커널")
+![OS02](https://user-images.githubusercontent.com/53729311/180646694-fa5d1f71-9d82-47c7-90b6-91fab7f40ad1.jpeg)
 
 위의 그림을 보면 커널의 제일 겉부분 Ring3은 사용자 모드로 누구나 쉽게 사용할 수 있다.
 

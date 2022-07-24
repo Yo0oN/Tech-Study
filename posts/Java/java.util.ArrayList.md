@@ -6,16 +6,16 @@
 
 ArrayList는객체를 관리하는데 사용하는 자료구조이다.<br>
 
-<img src="/images/posts/Java/java.util.ArrayList/01.jpg" />
+![01](https://user-images.githubusercontent.com/53729311/180646941-c161acbe-be3b-4723-ab50-9f3477022a5f.jpg)
 
 java.util.ArrayList를 살펴보면 내부적으로는 **배열**을 이용하여 구현되어있다.<br>
 
-<img src="/images/posts/Java/java.util.ArrayList/02.jpg"/>
+![02](https://user-images.githubusercontent.com/53729311/180646943-31958f21-74b4-46ee-9590-9aa6b169cd58.jpg)
 
 하지만 Array(배열)과는 다르게 용량이 다 차게 된다면 내부적으로 더 큰 배열을 만들어 크기를 키운 후 값을 더 넣을 수 있다. (=***Dynamic***)<br>
 (물론 무한히 넣을 수 있는것은 아니고 int의 최댓값인 0x7fffffff 까지만 크기를 키울 수 있다.)<br>
 
-<img src="/images/posts/Java/java.util.ArrayList/03.jpg" />
+![03](https://user-images.githubusercontent.com/53729311/180646944-cd00cfb9-9c31-4a6b-8c7d-ce31adbd6f5b.jpg)
 
 또한, 값을 자리가 있는 경우 마지막에만 추가해 줄 수 있는 배열과는 다르게, 사이에 끼워 넣을 수도 있다.<br>
 그럴경우, 이전에 있던 값들을 한칸씩 뒤로 옮긴 후 넣게된다.

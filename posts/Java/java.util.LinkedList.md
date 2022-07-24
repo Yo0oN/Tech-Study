@@ -8,7 +8,7 @@
 
 LinkedList는 객체를 관리하는데 사용하는 자료구조이다.<br>
 
-<img src="/images/posts/Java/java.util.LinkedList/01.jpg" />
+![01](https://user-images.githubusercontent.com/53729311/180646967-a218d77c-fac9-4663-989f-af980f55fbf8.jpg)
 
 java.util.LinkedList를 살펴보면 Node라는 것을 이용하여 여러 요소들을 이어주는 것(link)을 볼 수 있다.<br>
 Node 하나에는 해당 노드의 값이 들어있고, 앞의 노드와 뒤의 노드를 참조하여 여러 노드들 끼리 이어준다.

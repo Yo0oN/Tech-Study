@@ -1,21 +1,26 @@
-|작성일|수정일|
-|:----|:----|
-|2020-07-04|2020-07-04|
+---
+created: 2020-07-04
+modified: 2020-07-04
+tag: [Algorithm, Sort]
+title: Insertion Sort
+author: Yo0oN
+category: Algorithm
+---
 
 ## 1. 삽입정렬
 
 배열의 0번 원소를 기준으로 하여 뒤의 1번 원소부터 앞과 비교하여 앞의 값보다 크면 그자리, 작으면 앞에 끼워넣는다.<br>
 0번과 1번은 정렬되어있는 상태로, 2번 원소를 다시 앞의 값들과 비교하여 제자리에 삽입한다.
 
-![삽입정렬](/images/posts/Algorithm/삽입정렬/01.gif "VisuAlgo 삽입정렬")
+![01](https://user-images.githubusercontent.com/53729311/180646266-0db234d1-1e73-4f50-9725-08f1c14cbb38.gif)
 
 마치 카드게임에서 카드를 이동시키는것과 비슷하다.
 
-![삽입정렬](/images/posts/Algorithm/삽입정렬/02.png "천재학습백과 삽입정렬")
+![02](https://user-images.githubusercontent.com/53729311/180646268-69642f16-0c28-451d-8cc5-031c9031d9eb.png)
 
 또한 삽입정렬은 동일한 수가 있을 경우 자리가 바뀌지 않는 안정(stable)정렬이다.
 
-![삽입정렬](/images/posts/Algorithm/삽입정렬/03.jpg)
+![03](https://user-images.githubusercontent.com/53729311/180646270-1755224f-7504-41b7-82c2-39504ad6c7bc.jpg)
 
 <br>
 
