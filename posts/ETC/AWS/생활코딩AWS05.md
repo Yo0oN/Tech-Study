@@ -15,7 +15,7 @@ CloudFront는 기본적으로 Cache Server이고, CDN 기능을 제공해준다.
 
 참고로 AWS에서는 웹서버를 Origin, CloudFront를 Distribution이라고도 부른다.
 
-![AWS CloudFront 사용하기](/images/posts/기타/AWS/생활코딩AWS05/01.jpg)
+![01](https://user-images.githubusercontent.com/53729311/180649436-9b816e69-e04b-4e77-8f61-9953ca0e18c1.jpg)
 
 서비스 중 Cloud Front를 들어가 Get Distribute -> Get Started를 누르면 Distribution을 생성할 수 있다.<br>
 위의 사진 중 Origin Domain Name에 도메인을 적으면 되는데, 만약 AWS에서 웹서버로 사용중인 제품이 있다면 해당 제품을 적어도 된다.<br>
@@ -24,18 +24,18 @@ CloudFront는 기본적으로 Cache Server이고, CDN 기능을 제공해준다.
 
 <br>
 
-![AWS CloudFront 사용하기](/images/posts/기타/AWS/생활코딩AWS05/02.jpg)
+![02](https://user-images.githubusercontent.com/53729311/180649440-3d81898a-045c-4a6f-b035-4776c4286310.jpg)
 
 Distribution Settings란에서는 CDN 사용에 관한 설정을 할 수 있다.<br>
 <br>
 필요한 설정을 모두 마치고 생성을 하자.<br>
 
-![AWS CloudFront 사용하기](/images/posts/기타/AWS/생활코딩AWS05/03.jpg)
+![03](https://user-images.githubusercontent.com/53729311/180649441-8896642c-3ca3-4f3a-9f4f-de0a8dda12b8.jpg)
 
 생성이 끝나고 해당 Distribution을 보면 Domain Name이라는 것이 있다.<br>
 CloudFront의 주소이다. 해당 주소를 이용하여 CloudFront에 요청하면 이제 CloudFront는 웹서버에 다시 요청을 하고, 받은 응답을 클라이언트에게 응답해 줄 것이다.
 
-![AWS CloudFront 사용하기](/images/posts/기타/AWS/생활코딩AWS05/04.jpg)
+![04](https://user-images.githubusercontent.com/53729311/180649442-bb0a6246-df66-45d0-b9e7-64ad897663f5.jpg)
 <br>
 
 ### 1-1. 참고..Cache?
@@ -55,11 +55,11 @@ CloudFront의 주소이다. 해당 주소를 이용하여 CloudFront에 요청�
 물론 빠르게 응답해준다는 장점이 있지만, 미리 저장된 컨텐츠를 제공하기 때문에 원본이 바뀌어도 바뀐것을 모르고 본인이 가진것만을 제공한다.<br>
 
 
-![AWS CloudFront Cache](/images/posts/기타/AWS/생활코딩AWS05/06.jpg)
+![06](https://user-images.githubusercontent.com/53729311/180649445-bfbfd3b9-a077-42ce-8701-0b126c300cc1.jpg)
 
 우리가 만든 CloudFront도 마찬가지다.<br>
 
-![AWS CloudFront Cache](/images/posts/기타/AWS/생활코딩AWS05/05.jpg)
+![05](https://user-images.githubusercontent.com/53729311/180649443-19640bb0-d0bd-4749-9a4a-cbc834466d57.jpg)
 
 위의 그림을 보면 Minimum TTL, Maximum TTL, Default TTL이 있다.<br>
 순서대로 최소 캐시 유지시간, 최대 캐시 유지시간, 평균 캐시 유지시간이다.<br>

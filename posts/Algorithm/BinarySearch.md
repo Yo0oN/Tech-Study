@@ -1,10 +1,10 @@
 ---
 created: 2020-07-14
 modified: 2020-07-14
-tag: [Algorithm, Search]
+tags: [Algorithm, Search]
 title: Binary Search
 author: Yo0oN
-category: Algorithm
+categories: Algorithm
 ---
 ## 1. Binary Search
 
