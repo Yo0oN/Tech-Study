@@ -32,13 +32,6 @@ class Outer {
 그리고 해당 클래스들은 다시 static 여부에 따라, 정의되는 위치에 따라 여러 종류로 나뉜다.
 
 
-
-그리고 Nested Class들 중 Non-static 클래스는 Inner Class라고 한다.
-
-또 Inner Class들의 정의되는 위치에 따라 다시 Member Inner Class, Local Inner Class, Anonymous Inner Class로 나뉘는데
-
-
-
 ## 2. Static Nested Class
 
 Nested Class 들 중 static 선언이 가지는 특성이 반영된 클래스이다.
