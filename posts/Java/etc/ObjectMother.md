@@ -49,6 +49,7 @@ factory pattern에서 시작되었다.
 
 
 참고!
+
 Java에서 Object Mother를 만들 때 도움을 주는 [easy-random](https://github.com/j-easy/easy-random) 라이브러리가 있다.
 필요한 데이터들을 랜덤으로 만들어준다.
 
@@ -56,4 +57,4 @@ Java에서 Object Mother를 만들 때 도움을 주는 [easy-random](https://gi
 
 
 ### 관련 문서
-[ObjectMother]([https://martinfowler.com/bliki/ObjectMother.html](https://martinfowler.com/bliki/ObjectMother.html))
+[ObjectMother](https://martinfowler.com/bliki/ObjectMother.html)
